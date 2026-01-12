@@ -111,12 +111,18 @@ http://localhost:3000
 
 GET /navigation
 Fetch navigation data
+GET  http://localhost:3001/navigation
+
 
 GET /navigation/search?q=term
 Search navigation data
+GET  http://localhost:3001/navigation/search?q=your_query
+
 
 POST /navigation/scrape
-Trigger on-demand scraping
+Trigger on-demand scraping 
+POST http://localhost:3001/navigation/scrape
+
 
 🌍 Ethical Scraping
 
